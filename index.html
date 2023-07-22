@@ -1,50 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pangolin&family=Qwitcher+Grypen:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pangolin&family=Qwitcher+Grypen:wght@700&display=swap"
+      rel="stylesheet"
+    />
 
     <title>ZOMATO CLONE</title>
-</head>
-<body>
+  </head>
+
+  <body>
     <header>
-        <nav class="navbar">
-            <div class="navbar__brand">
-                <img src="assets/logo.png" alt="logo" class="brand__logo">
-            </div>
-            <div class="navbar__nav__items">
-                <div class="nav__items">
-                    <button class="button_primary">Order Food</button>
-                </div>
-            </div>    
-        </nav>
-    </header>  
+      <nav class="navbar">
+        <div class="navbar__brand">
+          <img src="assets/logo.png" alt="logo" class="brand__logo" />
+        </div>
+        <div class="navbar__nav__items">
+          <div class="nav__items">
+            <button class="button_primary">Order Food</button>
+          </div>
+        </div>
+      </nav>
+    </header>
     <main class="container">
-        <section class="hero_container">
-            <div class="hero_image_container">
-                <img src="./assets/hero.jpg" alt="heroimage" class="hero_image">
-                <img src="./assets/svg/heroShape.svg" alt="heroshape" class="hero_iamge_shape">
-                <img src="./assets/svg/herobgpattren.svg" alt="heropattern" class="hero_image_pattern">
+      <section class="hero_container">
+        <div class="hero_image_container">
+          <img src="./assets/hero.jpg" alt="heroimage" class="hero_image" />
+          <img
+            src="./assets/svg/heroShape.svg"
+            alt="heroshape"
+            class="hero_image_shape"
+          />
+          <img
+            src="./assets/svg/herobgpattren.svg"
+            alt="heropattern"
+            class="hero_image_pattern"
+          />
+        </div>
+        <div class="hero_description">
+          <h1 class="hero_text">
+            Order Food from favourite restaurants near you
+          </h1>
+          <button class="button_primary">Order Food</button>
+        </div>
+      </section>
+      <section class="video_footage_container">
+        <div class="video_footage">
+          <iframe
+            class="chef__video"
+            src="https://www.youtube.com/embed/ejsiBXYl-1Y"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="video_footage_text">
+          <p>
+            Your food will be prepared safely with an experienced chef, without
+            compromising on the quality and hygiene.
+          </p>
+        </div>
+      </section>
+      <section class="food_list_container">
+        <h1 class="text_x1">Explore our menu</h1>
+        <div class="food_list_container_diagonal"></div>
+          <div class="food_menu_card_list">
+            <div class="food_menu_card">
+              <img
+                src="./assets/burger.jpg"
+                alt="burger"
+                class="food_menu_card_image"
+              />
+              <div class="food_menu_card_details">
+                <h4 class="food_menu_card_title"><strong>Burgers</strong></h4>
+                <p>
+                  Burger King
+                  <span style="color: red">+3</span>
+                </p>
+              </div>
             </div>
-            <div class="hero_description">
-                <h1 class="hero_text">Order Food from favourite reastaurants near you</h1>
-                <button class="button_primary">Order Food</button>
+            <div
+              style="margin-top: -1rem; margin-bottom: 1rem"
+              class="food_menu_card"
+            >
+              <img
+                src="./assets/burger.jpg"
+                alt="burger"
+                class="food_menu_card_image"
+              />
+              <div class="food_menu_card_details">
+                <h4 class="food_menu_card_title"><strong>Burgers</strong></h4>
+                <p>
+                  Burger King
+                  <span style="color: red">+3</span>
+                </p>
+              </div>
             </div>
-        </section>
-        <section class="video_footage_container">
-            <div class="video_footage">
-                <iframe class="chef__video" src="https://www.youtube.com/embed/ejsiBXYl-1Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="food_menu_card">
+              <img
+                src="./assets/burger.jpg"
+                alt="burger"
+                class="food_menu_card_image"
+              />
+              <div class="food_menu_card_details">
+                <h4 class="food_menu_card_title"><strong>Burgers</strong></h4>
+                <p>
+                  Burger King
+                  <span style="color: red">+3</span>
+                </p>
+              </div>
             </div>
-            <div class="video_footage_text">
-                <p>Your food will be prepared safely with an experienced chef, without compromising on the quality and hygiene.</p>
-            </div>
-        </section>
-    </main>  
-</body>
+          </div>
+      </section>
+
+      <section class="restaurant_list_container">
+        <div class="restaurant_list_text">
+          <h4 class="text_x1">Order food from 100s</h4>
+        </div>
+        <div class="restaurant_list_images_container">
+          <div class="restaurant_list_row1">
+            <img src="./assets/restaurant1.jpg" alt="r1" class="restaurant1" />
+            <img src="./assets/restaurant2.jpg" alt="r2" class="restaurant2" />
+          </div>
+          <div class="restaurant_list_row2">
+            <img src="./assets/restaurant3.jpg" alt="r3" class="restaurant3" />
+            <img src="./assets/restaurant4.jpg" alt="r4" class="restaurant4" />
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
